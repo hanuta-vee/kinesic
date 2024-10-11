@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+padding: 0;
+height:100%;
+width:100%;
+
+
+}
+
+.interface{
+    background: black;
+
+
+}
+
+.box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+#textbox{
+color: white;
+background: transparent;
+border: none;
+overflow: hidden;
+outline: none;
+font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+resize: none;
+}
+
+
+#loader{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    visibility: hidden;
+
+}
+
+#punkte {
+  
+    width: 18px;
+    margin-top: 6px;
+    margin-left: 3px;
+    aspect-ratio: 6;
+    background: radial-gradient(circle closest-side,#000 90%,#0000) 0/calc(100%/3) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: l1 2s steps(4) infinite;
+  }
+  @keyframes l1 {to{clip-path: inset(0 -34% 0 0)}}
+
+
+
+
+
+  .interface2 {
+    background: rgb(255, 255, 255);
+    margin: 0px auto;
+    position: relative;
+    height:514px;
+    width:915px;
+    overflow: hidden; 
+    border: 2px solid rgb(255, 255, 255); 
+    padding: 0px; 
+    box-sizing: border-box; 
+    display: none;
+}
+
+
+.video {
+    border-radius: 8px;
+    position: absolute;
+    width: 280px; 
+    border: none; 
+    margin:20px 
+}
+
+
